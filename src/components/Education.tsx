@@ -35,6 +35,7 @@ export default function Education() {
               </h3>
             </div>
             <ul className="space-y-4">
+              {/* Iterate over the certifications array to create list items */}
               {certifications.map((cert, index) => (
                 <li
                   key={index}

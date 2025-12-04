@@ -15,6 +15,9 @@ export default function Contact() {
       <div className="flex justify-center items-center px-4">
         <div className="space-y-4 text-center">
           <div className="flex items-center justify-center gap-3">
+            {/*
+            Mail Icon from lucide-react
+            */}
             <Mail className="w-5 h-5 text-blue-600" />
             <a
               href="mailto:trand4832@gmail.com"
@@ -24,6 +27,9 @@ export default function Contact() {
             </a>
           </div>
           <div className="flex items-center justify-center gap-3">
+            {/*
+            Phone Icon from lucide-react
+            */}
             <Phone className="w-5 h-5 text-blue-600" />
             <a
               href="tel:+61410901875"

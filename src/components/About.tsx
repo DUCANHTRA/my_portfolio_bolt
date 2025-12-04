@@ -40,6 +40,9 @@ export default function About() {
           Technologies & Skills
         </h4>
         <div className="flex flex-wrap justify-center gap-4">
+        {/* Skill Tags
+            Iterate over the skills array to create skill tags with appropriate colors
+        */}
           {skills.map((skill) => (
             <span
               key={skill.name}

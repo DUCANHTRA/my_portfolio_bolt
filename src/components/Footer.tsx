@@ -16,6 +16,7 @@ export default function Footer() {
               className="text-gray-400 hover:text-blue-600 transition-colors"
               aria-label="GitHub"
             >
+              {/* Github Icon from lucide-react */}
               <Github className="w-5 h-5" />
             </a>
             <a
@@ -25,6 +26,7 @@ export default function Footer() {
               className="text-gray-400 hover:text-blue-600 transition-colors"
               aria-label="LinkedIn"
             >
+              {/* Linkedin Icon from lucide-react */}
               <Linkedin className="w-5 h-5" />
             </a>
           </div>

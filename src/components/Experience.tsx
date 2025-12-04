@@ -38,11 +38,14 @@ export default function Experience() {
       </div>
       <div className="max-w-4xl mx-auto px-4">
         <div className="relative border-l-2 border-blue-500 dark:border-blue-400">
+
+          {/* Iterate over the experiences array to create experience entries */}
           {experiences.map((exp, index) => {
             const Icon = exp.icon;
             return (
               <div key={index} className="mb-12 ml-6 group">
                 <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900 group-hover:scale-110 transition-transform">
+                  {/* Experience Icon from lucide-react */}
                   <Icon className="w-4 h-4 text-blue-600 dark:text-blue-300" />
                 </span>
                 <h4 className="flex flex-wrap items-center gap-2 mb-1 text-xl font-semibold text-gray-900 dark:text-white">
@@ -53,6 +56,7 @@ export default function Experience() {
                     </span>
                   )}
                 </h4>
+                {/* Company and Period */}
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   {exp.company} | {exp.period}
                 </time>

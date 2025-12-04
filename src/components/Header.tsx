@@ -3,7 +3,12 @@ import { Moon, Sun, Menu } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 export default function Header() {
+  {/* Theme context to manage dark/light mode 
+    useTheme provides isDark boolean and toggleTheme function
+    */}
   const { isDark, toggleTheme } = useTheme();
+
+  {/* State to manage mobile menu open/close */}
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
@@ -13,6 +18,7 @@ export default function Header() {
     { href: '#contact', label: 'Contact' },
   ];
 
+  {/* Smooth scroll handler for navigation links */}
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     const target = document.querySelector(href);
@@ -54,16 +60,21 @@ export default function Header() {
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               aria-label="Toggle mobile menu"
             >
+              {/* Menu Icon from lucide-react */}
               <Menu className="w-6 h-6 text-gray-700 dark:text-gray-300" />
             </button>
 
             {isMobileMenuOpen && (
               <div className="absolute top-full right-0 mt-2 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 min-w-[200px]">
                 <nav className="flex flex-col py-2 px-2">
+
+                  {/* Iterate over the navLinks array to create mobile nav links */}
                   {navLinks.map((link) => (
                     <a
                       key={link.href}
                       href={link.href}
+
+                      /* Smooth scroll on click */
                       onClick={(e) => handleNavClick(e, link.href)}
                       className="py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-center text-gray-700 dark:text-gray-200 font-medium"
                     >
@@ -80,6 +91,7 @@ export default function Header() {
             aria-label="Toggle dark mode"
             className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
+            {/* Sun and Moon Icons from lucide-react */}
             {isDark ? (
               <Sun className="w-5 h-5 text-gray-300" />
             ) : (

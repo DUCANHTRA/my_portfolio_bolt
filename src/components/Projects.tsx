@@ -49,6 +49,7 @@ export default function Projects() {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+        {/* Iterate over the projects array to create project cards */}
         {projects.map((project, index) => (
           <div
             key={index}
@@ -67,6 +68,7 @@ export default function Projects() {
                     className="text-gray-500 hover:text-blue-600 transition-colors"
                     title="View Code"
                   >
+                    {/* Github Icon from lucide-react */}
                     <Github className="w-5 h-5" />
                   </a>
                 )}
@@ -78,6 +80,7 @@ export default function Projects() {
                     className="text-gray-500 hover:text-blue-600 transition-colors"
                     title="Live Demo"
                   >
+                    {/* External Link Icon from lucide-react */}
                     <ExternalLink className="w-5 h-5" />
                   </a>
                 )}
