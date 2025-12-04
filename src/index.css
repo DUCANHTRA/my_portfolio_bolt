@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .dark body {
+    background-image: radial-gradient(circle at 50% 50%, #172033 0%, #0B1120 100%);
+    background-attachment: fixed;
+  }
+}
