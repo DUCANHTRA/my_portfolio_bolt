@@ -34,7 +34,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
       <div className="flex justify-between items-center p-4 max-w-7xl mx-auto">
         <div className="flex items-center space-x-2">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">
             Mark Tran
           </h1>
         </div>
@@ -46,10 +46,10 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="nav-link text-gray-700 dark:text-gray-200 font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors relative group"
+                className="nav-link text-gray-700 dark:text-gray-200 font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors relative group"
               >
                 {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full" />
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all group-hover:w-full" />
               </a>
             ))}
           </nav>

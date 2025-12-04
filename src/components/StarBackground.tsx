@@ -55,7 +55,7 @@ export default function StarBackground() {
         return;
       }
 
-      ctx.fillStyle = '#ffffff';
+      ctx.fillStyle = '#a7f3d0';
       stars.forEach((star) => {
         ctx.globalAlpha = star.alpha;
         ctx.beginPath();

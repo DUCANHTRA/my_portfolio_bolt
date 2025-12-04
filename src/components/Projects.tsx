@@ -20,9 +20,9 @@ export default function Projects() {
       description:
         'A responsive job tracking web app with dashboard analytics, import/export functionality, and local storage persistence.',
       technologies: [
-        { name: 'React 19', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
+        { name: 'React 19', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
         { name: 'Tailwind CSS', color: 'text-cyan-800 bg-cyan-100 dark:bg-cyan-900 dark:text-cyan-300' },
-        { name: 'Context API', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
+        { name: 'Context API', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
       ],
       github: 'https://github.com/DUCANHTRA/react-job-tracker',
       demo: 'https://jobquestn.netlify.app/',
@@ -32,7 +32,7 @@ export default function Projects() {
       description:
         'A Trello-like to-do list application allowing users to manage boards, lists, and cards with a modern UI.',
       technologies: [
-        { name: 'React', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
+        { name: 'React', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
         { name: 'Tailwind CSS', color: 'text-cyan-800 bg-cyan-100 dark:bg-cyan-900 dark:text-cyan-300' },
       ],
       github: 'https://github.com/DUCANHTRA/react-trello-clone',
@@ -56,7 +56,7 @@ export default function Projects() {
             className="p-6 border border-gray-200 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-900/50 shadow-sm hover:shadow-lg transition-all group hover:-translate-y-1"
           >
             <div className="flex justify-between items-start mb-4">
-              <h4 className="font-bold text-xl text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">
+              <h4 className="font-bold text-xl text-gray-900 dark:text-white group-hover:text-green-500 transition-colors">
                 {project.title}
               </h4>
               <div className="flex gap-3">
@@ -65,7 +65,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-500 hover:text-blue-600 transition-colors"
+                    className="text-gray-500 hover:text-green-600 transition-colors"
                     title="View Code"
                   >
                     {/* Github Icon from lucide-react */}
@@ -77,7 +77,7 @@ export default function Projects() {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-500 hover:text-blue-600 transition-colors"
+                    className="text-gray-500 hover:text-green-600 transition-colors"
                     title="Live Demo"
                   >
                     {/* External Link Icon from lucide-react */}

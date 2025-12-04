@@ -37,21 +37,21 @@ export default function Experience() {
         </h3>
       </div>
       <div className="max-w-4xl mx-auto px-4">
-        <div className="relative border-l-2 border-blue-500 dark:border-blue-400">
+        <div className="relative border-l-2 border-green-500 dark:border-green-400">
 
           {/* Iterate over the experiences array to create experience entries */}
           {experiences.map((exp, index) => {
             const Icon = exp.icon;
             return (
               <div key={index} className="mb-12 ml-6 group">
-                <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900 group-hover:scale-110 transition-transform">
+                <span className="absolute flex items-center justify-center w-8 h-8 bg-green-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-green-900 group-hover:scale-110 transition-transform">
                   {/* Experience Icon from lucide-react */}
-                  <Icon className="w-4 h-4 text-blue-600 dark:text-blue-300" />
+                  <Icon className="w-4 h-4 text-green-600 dark:text-green-300" />
                 </span>
                 <h4 className="flex flex-wrap items-center gap-2 mb-1 text-xl font-semibold text-gray-900 dark:text-white">
                   {exp.title}
                   {exp.isCurrent && (
-                    <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                    <span className="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
                       Present
                     </span>
                   )}

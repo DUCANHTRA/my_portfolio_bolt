@@ -18,10 +18,10 @@ export default function Contact() {
             {/*
             Mail Icon from lucide-react
             */}
-            <Mail className="w-5 h-5 text-blue-600" />
+            <Mail className="w-5 h-5 text-green-600" />
             <a
               href="mailto:trand4832@gmail.com"
-              className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-900 dark:text-white hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               trand4832@gmail.com
             </a>
@@ -30,10 +30,10 @@ export default function Contact() {
             {/*
             Phone Icon from lucide-react
             */}
-            <Phone className="w-5 h-5 text-blue-600" />
+            <Phone className="w-5 h-5 text-green-600" />
             <a
               href="tel:+61410901875"
-              className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-900 dark:text-white hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               (+61) 410 901 875
             </a>

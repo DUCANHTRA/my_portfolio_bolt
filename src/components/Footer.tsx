@@ -13,7 +13,7 @@ export default function Footer() {
               href="https://github.com/DUCANHTRA"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-blue-600 transition-colors"
+              className="text-gray-400 hover:text-green-600 transition-colors"
               aria-label="GitHub"
             >
               {/* Github Icon from lucide-react */}
@@ -23,7 +23,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/duc-anh-tran-5b8227271/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-blue-600 transition-colors"
+              className="text-gray-400 hover:text-green-600 transition-colors"
               aria-label="LinkedIn"
             >
               {/* Linkedin Icon from lucide-react */}

@@ -1,26 +1,26 @@
 export default function About() {
   const skills = [
     { name: 'JavaScript', color: 'text-yellow-400' },
-    { name: 'TypeScript', color: 'text-blue-400' },
-    { name: 'C++', color: 'text-blue-600' },
+    { name: 'TypeScript', color: 'text-green-400' },
+    { name: 'C++', color: 'text-teal-600' },
     { name: 'C#', color: 'text-purple-600' },
     { name: 'Python', color: 'text-yellow-300' },
     { name: 'PHP', color: 'text-indigo-400' },
     { name: 'HTML5', color: 'text-orange-500' },
-    { name: 'CSS3', color: 'text-blue-500' },
+    { name: 'CSS3', color: 'text-teal-500' },
     { name: 'React', color: 'text-cyan-400' },
     { name: 'Vue', color: 'text-green-500' },
     { name: 'Node.js', color: 'text-green-600' },
     { name: 'Express.js', color: 'text-gray-500' },
     { name: 'Bootstrap', color: 'text-purple-600' },
     { name: 'Tailwind CSS', color: 'text-cyan-500' },
-    { name: 'MySQL', color: 'text-blue-400' },
+    { name: 'MySQL', color: 'text-green-400' },
     { name: 'MongoDB', color: 'text-green-500' },
     { name: 'Git', color: 'text-red-500' },
     { name: 'GitHub Actions', color: 'text-gray-800 dark:text-white' },
-    { name: 'Docker', color: 'text-blue-500' },
-    { name: 'AWS', color: 'text-orange-400' },
-    { name: 'Azure', color: 'text-blue-600' },
+    { name: 'Docker', color: 'text-teal-500' },
+    { name: 'AWS', color: 'text-green-400' },
+    { name: 'Azure', color: 'text-teal-600' },
   ];
 
   return (
