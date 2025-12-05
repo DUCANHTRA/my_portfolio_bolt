@@ -12,7 +12,7 @@ export default function Projects() {
         { name: 'Node.js', color: 'text-purple-800 bg-purple-100 dark:bg-purple-900 dark:text-purple-300' },
         { name: 'MongoDB', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
       ],
-      github: 'https://github.com/DUCANHTRA/vue-commerce',
+      github: 'https://github.com/DUCANHTRA/vue-commerce-app',
       demo: 'https://vueclients.netlify.app/',
     },
     {
