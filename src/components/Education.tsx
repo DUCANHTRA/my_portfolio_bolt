@@ -5,6 +5,16 @@ export default function Education() {
     'Frontend Development (Elevvo Internship)',
   ];
 
+  const relevantCourses = [
+    'Data Structures & Algorithms',
+    'Object-Oriented Programming',
+    'Networking & Switching',
+    'Cloud Computing',
+    'Operating Systems',
+    'Introduction to Software Engineering',
+    'Concurrent Programming',
+  ];
+
   return (
     <section id="education" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
@@ -25,6 +35,18 @@ export default function Education() {
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 March 2023 – November 2025
               </p>
+            </div>
+
+            {/* Relevant Coursework */}
+            <div>
+              <h5 className="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
+                Relevant Coursework
+              </h5>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-600 dark:text-gray-300 list-disc list-inside">
+                {relevantCourses.map((course, index) => (
+                  <li key={index}>{course}</li>
+                ))}
+              </ul>
             </div>
           </div>
 

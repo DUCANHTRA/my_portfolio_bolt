@@ -8,7 +8,7 @@ export default function Hero() {
           Mark Tran
         </h2>
         <h3 className="text-2xl text-gray-600 dark:text-gray-300 mb-8">
-          Software Developer
+          Graduate Computer Science - Aspiring Software Developer
         </h3>
         <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
           I am passionate about building impactful software and constantly learning new technologies.

@@ -30,7 +30,7 @@ export default function About() {
           About Me
         </h3>
         <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-          Currently exploring areas such as full-stack development, cloud computing, and system
+          I am currently exploring areas such as full-stack development, cloud computing, and system
           design. I thrive in collaborative environments, have a keen interest in taking on
           technical challenges, and am always enthusiastic to expand my skill set.
         </p>
