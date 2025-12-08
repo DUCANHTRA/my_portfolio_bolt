@@ -16,6 +16,20 @@ export default function Projects() {
       demo: 'https://vueclients.netlify.app/',
     },
     {
+      title: 'Robot Stacker Simulation',
+      description:
+        'A full-stack web app simulating a robot navigating a 3×3 grid to pick up and stack colored circles under rule-based constraints with real-time visualization and action history logging.',
+      technologies: [
+        { name: 'React', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
+        { name: 'Vite', color: 'text-purple-800 bg-purple-100 dark:bg-purple-900 dark:text-purple-300' },
+        { name: 'Node.js', color: 'text-purple-800 bg-purple-100 dark:bg-purple-900 dark:text-purple-300' },
+        { name: 'Express', color: 'text-yellow-800 bg-yellow-100 dark:bg-yellow-900 dark:text-yellow-300' },
+        { name: 'Axios', color: 'text-cyan-800 bg-cyan-100 dark:bg-cyan-900 dark:text-cyan-300' },
+      ],
+      github: 'https://github.com/DUCANHTRA/robot-stacker',
+      demo: 'https://robostacke.netlify.app/',
+    },
+    {
       title: 'Job Tracker Application',
       description:
         'A responsive job tracking web app with dashboard analytics, import/export functionality, and local storage persistence.',
