@@ -21,6 +21,8 @@ export default function About() {
     { name: 'Docker', color: 'text-teal-500' },
     { name: 'AWS', color: 'text-green-400' },
     { name: 'Azure', color: 'text-teal-600' },
+    { name: 'Netlify', color: 'text-cyan-500' },
+    { name: 'Vercel', color: 'text-gray-800 dark:text-white' },
   ];
 
   return (
@@ -40,7 +42,7 @@ export default function About() {
           Technologies & Skills
         </h4>
         <div className="flex flex-wrap justify-center gap-4">
-        {/* Skill Tags
+          {/* Skill Tags
             Iterate over the skills array to create skill tags with appropriate colors
         */}
           {skills.map((skill) => (
