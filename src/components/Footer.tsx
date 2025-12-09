@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto p-8">
         <div className="border-t border-gray-200 dark:border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            &copy; 2025 Duc Anh Tran. All rights reserved.
+            &copy; 2025 Mark Tran.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
