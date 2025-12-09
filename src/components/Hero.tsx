@@ -27,7 +27,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/duc-anh-tran-709b24335/"
+            href="https://www.linkedin.com/in/mark-tran-709b24335/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transform hover:scale-105 transition-all font-semibold"
