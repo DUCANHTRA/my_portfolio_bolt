@@ -16,6 +16,22 @@ export default function Projects() {
       demo: 'https://vueclients.netlify.app/',
     },
     {
+      title: 'Note-Taking Application',
+      description:
+        'A full-stack MERN note-taking application, JWT authentication, tag filtering, and feature-level debug logging.',
+      technologies: [
+        { name: 'React', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
+        { name: 'Tailwind CSS', color: 'text-cyan-800 bg-cyan-100 dark:bg-cyan-900 dark:text-cyan-300' },
+        { name: 'Node.js', color: 'text-purple-800 bg-purple-100 dark:bg-purple-900 dark:text-purple-300' },
+        { name: 'Express', color: 'text-yellow-800 bg-yellow-100 dark:bg-yellow-900 dark:text-yellow-300' },
+        { name: 'MongoDB', color: 'text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-300' },
+        { name: 'Zustand', color: 'text-pink-800 bg-pink-100 dark:bg-pink-900 dark:text-pink-300' },
+        { name: 'Google Gemini AI', color: 'text-indigo-800 bg-indigo-100 dark:bg-indigo-900 dark:text-indigo-300' },
+      ],
+      github: 'https://github.com/DUCANHTRA/note-taking',
+      demo: 'https://notetaki.netlify.app/',
+    },
+    {
       title: 'Robot Stacker Simulation',
       description:
         'A full-stack web app simulating a robot navigating a 3×3 grid to pick up and stack colored circles under rule-based constraints with real-time visualization and action history logging.',
