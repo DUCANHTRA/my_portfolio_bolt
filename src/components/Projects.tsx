@@ -75,7 +75,7 @@ export default function Projects() {
       demo: 'https://jobquestn.netlify.app/',
     },
     {
-      title: 'Logistics Path Finder',
+      title: 'Simple Logistics Path Finder',
       description:
         'A full-stack logistics route planning application featuring JWT authentication, interactive maps, shortest-path calculation, and saved route management.',
       technologies: [
@@ -93,7 +93,7 @@ export default function Projects() {
       github: 'https://github.com/DUCANHTRA/react-leaflet_pathfinder',
     },
     {
-      title: 'Orbital React: Solar System Simulator',
+      title: 'Orbital React: Simple Solar System Simulator',
       description:
         'An interactive 3D solar system simulator featuring animated planetary orbits, camera controls, and backend persistence for simulation settings.',
       technologies: [
