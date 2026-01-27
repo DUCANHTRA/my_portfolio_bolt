@@ -16,6 +16,7 @@ export default function About() {
     { name: 'Tailwind CSS', color: 'text-cyan-500' },
     { name: 'MySQL', color: 'text-green-400' },
     { name: 'MongoDB', color: 'text-green-500' },
+    { name: 'Firebase', color: 'text-orange-500' },
     { name: 'Git', color: 'text-red-500' },
     { name: 'GitHub Actions', color: 'text-gray-800 dark:text-white' },
     { name: 'Docker', color: 'text-teal-500' },
