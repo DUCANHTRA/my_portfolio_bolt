@@ -29,8 +29,8 @@ export default function Projects() {
         { name: 'Chart.js', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
         { name: 'React Router DOM', color: 'text-orange-800 bg-orange-100 dark:bg-orange-900 dark:text-orange-300' },
       ],
-      github: 'https://github.com/your-username/react-firebase-app',
-      demo: 'https://your-demo-link.netlify.app/',
+      github: 'https://github.com/DUCANHTRA/hotel_reservation',
+      demo: 'https://hotel-reservation-roan-two.vercel.app/',
     },
     {
       title: 'Movie Ticket Booking System',
