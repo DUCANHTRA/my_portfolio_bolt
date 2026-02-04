@@ -16,6 +16,22 @@ export default function Projects() {
       demo: 'https://vueclients.netlify.app/',
     },
     {
+      title: 'Book Review Application',
+      description:
+        'A full-stack book review platform with secure authentication, role-based access control, and an admin dashboard for content management. Built with modern frontend tooling and a scalable Backend-as-a-Service architecture.',
+      technologies: [
+        { name: 'React', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
+        { name: 'TypeScript', color: 'text-indigo-800 bg-indigo-100 dark:bg-indigo-900 dark:text-indigo-300' },
+        { name: 'Vite', color: 'text-purple-800 bg-purple-100 dark:bg-purple-900 dark:text-purple-300' },
+        { name: 'Tailwind CSS', color: 'text-cyan-800 bg-cyan-100 dark:bg-cyan-900 dark:text-cyan-300' },
+        { name: 'Supabase', color: 'text-emerald-800 bg-emerald-100 dark:bg-emerald-900 dark:text-emerald-300' },
+        { name: 'PostgreSQL', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
+      ],
+      github: 'https://github.com/DUCANHTRA/book_review',
+      demo: 'https://book-review-gules.vercel.app/',
+    }
+    ,
+    {
       title: 'React Firebase Hotel Booking Application',
       description:
         'A comprehensive hotel booking and management platform with secure Firebase authentication, role-based admin dashboard, interactive analytics, and responsive UI for seamless hotel and room management.',
