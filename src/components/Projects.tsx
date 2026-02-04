@@ -27,8 +27,8 @@ export default function Projects() {
         { name: 'Supabase', color: 'text-emerald-800 bg-emerald-100 dark:bg-emerald-900 dark:text-emerald-300' },
         { name: 'PostgreSQL', color: 'text-blue-800 bg-blue-100 dark:bg-blue-900 dark:text-blue-300' },
       ],
-      github: 'https://github.com/DUCANHTRA/book_review',
-      demo: 'https://book-review-gules.vercel.app/',
+      github: 'https://github.com/DUCANHTRA/react_book_review',
+      demo: 'https://react-book-review-eight.vercel.app/',
     }
     ,
     {
